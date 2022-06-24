@@ -2,6 +2,10 @@
 
 All notable changes to `filament-navigation` will be documented in this file.
 
+## 0.3.1 - 2022-06-24
+
+Allow grouping the resource
+
 ## Translateability - 2022-06-16
 
 Added support to translate the NavigationItems label.
@@ -76,6 +80,7 @@ composer update
 php artisan view:clear
 php artisan vendor:publish --tag="filament-navigation-assets"
 php artisan migrate
+
 
 
 
