@@ -30,6 +30,11 @@ class NavigationResource extends Resource
         static::$showTimestamps = ! $condition;
     }
 
+    protected static function getNavigationGroup(): ?string
+    {
+        return config('filament-navigation.navigation-group');
+    }
+
     public static function form(Form $form): Form
     {
         return $form
